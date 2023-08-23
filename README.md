@@ -8,37 +8,29 @@ https://api.quran.gading.dev
 ### Request
 Method: GET <br/>
 Authentication: none
-```
-https://api.quran.gading.dev/surah
-```
-<a href="https://api.quran.gading.dev/surah" target="_blank">Run</a>
+`/surah`
+<a href="https://api.quran.gading.dev/surah" target="_blank">Run Example</a>
 
 ## Get Surah By Id
 ### Request
 Method: GET <br/>
 Authentication: none
-```
-https://api.quran.gading.dev/surah/1
-```
-<a href="https://api.quran.gading.dev/surah/1" target="_blank">Run</a>
+`surah/{surah_id}`
+<a href="https://api.quran.gading.dev/surah/1" target="_blank">Run Example</a>
 
 ## Get Ayah in Surah By Id
 ### Request
 Method: GET <br/>
 Authentication: none
-```
-https://api.quran.gading.dev/surah/1
-```
-<a href="https://api.quran.gading.dev/surah/1/7" target="_blank">Run</a>
+`surah/{surah_id}/{ayah_id}`
+<a href="https://api.quran.gading.dev/surah/1/7" target="_blank">Run Example</a>
 
 ## Get Juz By Id
 ### Request
 Method: GET <br/>
 Authentication: none
-```
-https://api.quran.gading.dev/surah/1
-```
-<a href="https://api.quran.gading.dev/juz/1" target="_blank">Run</a>
+`juz/{juz_id}`
+<a href="https://api.quran.gading.dev/juz/1" target="_blank">Run Example</a>
 
 ## Reference
 API Created By [gadingnst](https://github.com/gadingnst/quran-api)
