@@ -9,7 +9,7 @@ https://api.quran.gading.dev
 Method: GET <br/>
 Authentication: none
 ```
-/surah
+endpoint: /surah
 ``` 
 <a href="https://api.quran.gading.dev/surah" target="_blank">Run Example</a>
 
@@ -18,7 +18,8 @@ Authentication: none
 Method: GET <br/>
 Authentication: none
 ```
-surah/{surah_id}
+endpoint: surah/{surah_id}
+example: surah/{1} // result surah Al-fatihah
 ```
 <a href="https://api.quran.gading.dev/surah/1" target="_blank">Run Example</a>
 
@@ -27,7 +28,8 @@ surah/{surah_id}
 Method: GET <br/>
 Authentication: none 
 ```
-surah/{surah_id}/{ayah_id}
+endpoint: surah/{surah_id}/{ayah_id}
+example: surah/1/7 //result surah Al-fatihah ayah 7
 ```
 <a href="https://api.quran.gading.dev/surah/1/7" target="_blank">Run Example</a>
 
@@ -36,7 +38,8 @@ surah/{surah_id}/{ayah_id}
 Method: GET <br/>
 Authentication: none 
 ```
-juz/{juz_id}
+endpoint: juz/{juz_id}
+example: juz/1 //result Juz 1
 ```
 <a href="https://api.quran.gading.dev/juz/1" target="_blank">Run Example</a>
 
